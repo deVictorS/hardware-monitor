@@ -7,7 +7,7 @@ import os
 
 os.makedirs("logs", exist_ok = True)
 
-LOG_FILE = "logs/day16.txt"
+LOG_FILE = ""
 
 LIMITE_CPU = 90
 LIMITE_MEMORIA = 80
