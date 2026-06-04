@@ -1,12 +1,12 @@
-# Monitor Hardware 🖥️
+# Monitor Hardware 
 
 Um sistema de monitoramento de recursos de hardware em tempo real que registra o uso de CPU e memória com alertas automáticos.
 
-## 📋 Descrição
+##  Descrição
 
 Monitor Hardware é uma ferramenta Python que monitora continuamente o desempenho do sistema, rastreando o uso de CPU e memória em tempo real. O programa gera alertas quando os recursos atingem limites críticos e mantém um registro detalhado em arquivo de log.
 
-## 🎯 Funcionalidades
+##  Funcionalidades
 
 - ✅ Monitoramento em tempo real de CPU
 - ✅ Monitoramento em tempo real de Memória RAM
@@ -16,7 +16,7 @@ Monitor Hardware é uma ferramenta Python que monitora continuamente o desempenh
 - ✅ Interface de linha de comando clara
 - ✅ Monitoramento contínuo com intervalo configurável
 
-## ⚙️ Requisitos
+##  Requisitos
 
 - **Python 3.6+**
 - **psutil** - Biblioteca para acesso a informações de sistema
@@ -27,7 +27,7 @@ Monitor Hardware é uma ferramenta Python que monitora continuamente o desempenh
 pip install psutil
 ```
 
-## 🚀 Como usar
+##  Como usar
 
 ### Iniciar o Monitor
 
@@ -45,7 +45,7 @@ CPU: 92% | Memoria: 85% | ALERTA: CPU EM 92% | ALERTA: MEMORIA EM 85%
 CPU: 45% | Memoria: 88% | ALERTA: MEMORIA EM 88%
 ```
 
-## 📊 Configuração
+##  Configuração
 
 ### Ajustar Limites de Alerta
 
@@ -65,7 +65,7 @@ time.sleep(1)  # Verifica a cada 1 segundo (padrão)
 time.sleep(5)  # Para verificar a cada 5 segundos
 ```
 
-## 📁 Estrutura de Arquivos
+##  Estrutura de Arquivos
 
 ```
 monitor_hardware/
@@ -76,7 +76,7 @@ monitor_hardware/
 └── README.md
 ```
 
-## 📝 Estrutura do Código
+##  Estrutura do Código
 
 ### `main.py`
 
@@ -110,7 +110,7 @@ LOG_FILE = "logs/..."    # Caminho do arquivo de log
    - Imprimir na tela
    - Registrar em arquivo de log
 
-## 📊 Formato dos Logs
+##  Formato dos Logs
 
 Os arquivos de log são criados no diretório `logs/` com o seguinte padrão:
 
@@ -121,7 +121,7 @@ Os arquivos de log são criados no diretório `logs/` com o seguinte padrão:
 [2026-02-04 14:23:48.456789] CPU: 92% | Memoria: 85% | ALERTA: CPU EM 92% | ALERTA: MEMORIA EM 85%
 ```
 
-## 💡 Casos de Uso
+##  Casos de Uso
 
 1. **Monitoramento de Servidor** - Rastrear saúde do sistema
 2. **Detecção de Anomalias** - Identificar picos de uso
@@ -129,7 +129,7 @@ Os arquivos de log são criados no diretório `logs/` com o seguinte padrão:
 4. **Análise Histórica** - Revisar padrões de uso
 5. **Automação** - Base para scripts de resposta automática
 
-## 🔧 Melhorias Possíveis
+##  Melhorias Possíveis
 
 ```python
 # Monitorar outros recursos
@@ -156,7 +156,7 @@ Os arquivos de log são criados no diretório `logs/` com o seguinte padrão:
 # - Integração com sistemas de monitoramento (Prometheus, Grafana)
 ```
 
-## 📚 Conhecimentos Demonstrados
+##  Conhecimentos Demonstrados
 
 - ✅ Uso de bibliotecas externas (`psutil`)
 - ✅ Operações com arquivos (I/O)
@@ -166,7 +166,7 @@ Os arquivos de log são criados no diretório `logs/` com o seguinte padrão:
 - ✅ Comparação de valores
 - ✅ Listas e concatenação
 
-## ⚠️ Considerações
+##  Considerações
 
 1. **Performance** - Monitoramento contínuo pode usar recursos
 2. **Espaço em Disco** - Logs podem crescer indefinidamente
@@ -174,7 +174,7 @@ Os arquivos de log são criados no diretório `logs/` com o seguinte padrão:
 4. **Permissões** - Pode necessitar de privilégios elevados em alguns sistemas
 5. **Multiplataforma** - Funciona em Windows, Linux e macOS
 
-## 🛠️ Dicas de Uso
+##  Dicas de Uso
 
 ### Executar em Background (Linux/macOS)
 ```bash
@@ -198,7 +198,7 @@ python main.py
 tail -f logs/hardware_*.log
 ```
 
-## 📦 Expansão Futura
+##  Expansão Futura
 
 ```python
 # Exemplo de extensão com monitoramento de disco
@@ -215,11 +215,11 @@ def processos_top():
     return top_5
 ```
 
-## 📄 Licença
+##  Licença
 
 Este projeto não possui licença especificada.
 
-## 👨‍💻 Autor
+##  Autor
 
 [deVictorS](https://github.com/deVictorS)
 
